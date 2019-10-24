@@ -12,7 +12,7 @@
 	padding-right: 20px;
 }
 #nav-link{
-	font-size: 1.1em !important
+	font-size: 1.3em !important
 }
 
 #navbarResponsive{
@@ -47,24 +47,72 @@
     transition: width .3s;
 }
 
+/* image part */
 .img{
     position: relative;
     widows: 100%;
     height:50vh;
-    background-image: url('../images/development.jpg');
+    background-image: url('../images/about2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
 
-.img h1{
-    color:white;
-    padding-top:15%;
-    padding-left:24%;
-    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8;
+.left_col{
+    padding-top:4vh;
+    height: 90vh;
+    margin-bottom: 3%;
+    margin-top:0%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.left_col h1{
+    margin-left:3vw;
+    margin-top: 4vh;
+    color: #219bd9
+}
+
+.left_col p{
+    margin-left:1vw;
+    color: #219bd9
+}
+
+.right_col{
+    padding-top:4vh;
+    background-color:#219bd9;
+    height: 90vh;
+    margin-bottom: 3%;
+    margin-top:0%;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+.right_col h1{
+    margin-left:3vw;
+    margin-top: 4vh;
+    color: white
+}
+
+.right_col .row{
+    padding-left:15%;
+}
+
+.right_col .row h1{
+    margin-left:2vw;
+    color: white
 }
 
 /* footer */
+
+i{
+    color:white;
+    font-size:38px;
+    margin-top: 2.5vh;
+}
+
+footer{
+    background-color:#292e30;
+    margin-top: 3%
+}
 
 #bottom-nav-link {
     font-size: .9em !important;
@@ -108,3 +156,4 @@
 	/* margin-top: .9rem; */
 	margin-bottom: 1rem;
 }
+

@@ -1,1 +1,16 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.21 227.04"><defs><style>.cls-1{fill:#f2f6fc;}.cls-2{fill:#0051c1;fill-opacity:0.08;opacity:0.64;isolation:isolate;}</style></defs><title>card4</title><path class="cls-1" d="M182.33,245.71c-64.3,23.57,20.87-87.89-127.2-71.5,0,0-69.88,24.29-21.92-71.85,65-130.23,173.3-64.48,185.19-58.85C228.07,48.09,367,178,182.33,245.71Z" transform="translate(-16.4 -21.96)"/><path class="cls-2" d="M113.47,137c3.2-2.29,6.17-5.27,6.86-9.16,1.6-8.46-4.12-15.33-6.41-17.62-5.49-5.72-13.72-8.69-18.3-15.33a51.52,51.52,0,0,0-3.43-6A17.63,17.63,0,0,0,69.3,83.65c-4.11,2.52-8.23,5.72-10.75,10.07-3.89,6.63-5.72,15.56-5.26,18.76,1.6,10.76,2.51,18.54,26.54,28.38,10.3,4.34,24.26,2.28,33.64-3.89" transform="translate(-16.4 -21.96)"/><circle class="cls-1" cx="89.88" cy="190.71" r="8.6"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 261.2 227" style="enable-background:new 0 0 261.2 227;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F2F6FC;}
+	.st1{opacity:0.64;fill:#0051C1;fill-opacity:8.000000e-02;enable-background:new    ;}
+</style>
+<title>card4</title>
+<path class="st0" d="M165.9,223.8c-64.3,23.6,20.9-87.9-127.2-71.5c0,0-69.9,24.3-21.9-71.9C81.8-49.8,190.1,15.9,202,21.6
+	C211.7,26.1,350.6,156,165.9,223.8z"/>
+<path class="st1" d="M76.6,106.6c2.1-1.5,4.1-3.5,4.5-6c1.1-5.6-2.7-10.1-4.2-11.6c-3.6-3.8-9.1-5.7-12.1-10.1
+	c-0.7-1.4-1.4-2.7-2.3-4c-3.4-4.8-9.9-6.3-15.1-3.5c-2.7,1.7-5.4,3.8-7.1,6.6c-2.6,4.4-3.8,10.3-3.5,12.4
+	c1.1,7.1,1.7,12.2,17.5,18.7C61.2,112.1,70.4,110.7,76.6,106.6"/>
+<circle class="st0" cx="89.9" cy="190.7" r="8.6"/>
+</svg>

@@ -1,7 +1,5 @@
-
-
 #navbar{
-	padding: .8rem;
+    padding: .8rem;
 }
 
 #sticky{
@@ -49,28 +47,129 @@
     transition: width .3s;
 }
 
-/* svg and home  */
-.banner{
-    background-image: url('../images/x.svg');
+/* home page css part */
+.home_container{
+    background-image: url('../images/home1.jpg');
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    height: 200vh;
-    width: auto;
+    height: 100vh
 }
 
-/* .banner svg{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}  */
-
-.cls-1{
-    fill:#fff;
-}
-.cls-2{
-    fill:#fff;
+.home_h2{
+    padding-top:25%;
+    padding-left:38%;
+    font-weight: bolder;
 }
 
+.home_h1{
+    padding-top:0px;
+    padding-left:10%;
+    margin-left: 20%;
+    font-size:70px;
+}
+
+.line{
+    width:12%;
+    height:1px;
+    background-color:white;
+}
+
+.home_p1{
+    font-size:20px;
+    color:#000000;
+    margin-left:25%;
+    font-weight: bolder;
+}
+
+.home_p2{
+    font-size:20px;
+    color:#000000;
+    margin-left:30%;
+    font-weight: bolder;
+}
+
+.home_btn{
+    margin-left:580px;
+    margin-top:0;
+}
+
+/* service area css */
+#padding1{
+	padding-bottom: 0;
+}
+
+#welcome{
+	width: 75%;
+	margin: 0 auto;
+	padding-top: 2rem;
+}
+
+#hr1{
+	border-top: 2px solid #219bd9;
+	width: 15%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+.services{
+    margin-top:2%
+}
+
+.first_services_row{
+    height:35vh;
+    margin-top: 5%;
+}
+
+.development_service{
+    background-image:url('../images/card.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50%;
+    height: 40vh;
+}
+
+.graphics_service{
+    background-image:url('../images/card2.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50%;
+    height: 100%;
+}
+
+.digital_service{
+    background-image:url('../images/card3.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50%;
+    height: 100%;
+}
+
+.IT_support_service{
+    margin-left: 33%;
+    height:50vh;
+    background-image:url('../images/card4.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:50%;
+    height: 100%;
+}
+
+.service_text{
+    margin-top: 10vh;
+}
+
+.service_text .service_a{
+    text-decoration: none;
+    font-size:28px;
+    color: #219bd9;
+}
+
+.service_text .service_a:hover{
+    text-decoration: none;
+    font-size:38px;
+    color: #219bd9;
+}
 /* About */
 #about-btn{
     height:50px;
@@ -137,10 +236,10 @@
 /* contact form  */
 
 .contact-form{
-    background: #fff;
+    background: white;
     margin-top: 10%;
     margin-bottom: 5%;
-    width: 70%;
+    width: 100%;
     box-shadow: 5px 10px 18px #888888;
 }
 .contact-form .form-control{
