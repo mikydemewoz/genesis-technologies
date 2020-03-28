@@ -12,7 +12,9 @@
 	padding-right: 20px;
 }
 #nav-link{
-	font-size: 1.1em !important
+    font-size: 1.1em !important;
+    color: #219bd9;
+    font-weight: bold;
 }
 
 #navbarResponsive{
@@ -24,7 +26,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #219bd9;
+    background: #f36b21;
     transition: width .3s;
 }
 
@@ -38,7 +40,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #219bd9;
+    background: #f36b21;
     transition: width .3s;
 }
 
@@ -46,24 +48,47 @@
     width: 100%;
     transition: width .3s;
 }
-
-.img{
-    position: relative;
-    widows: 100%;
-    height:50vh;
-    background-image: url('../images/digital_marketing.jpg');
-    background-repeat: no-repeat;
+.logo{
+    background-image: url('../images/logo.svg');
     background-size: cover;
+    max-width: 100%;
     background-position: center;
+    background-repeat: no-repeat;
+    height: 13vh;
+    width: 18vw;
 }
 
+/* home container */
+.home_container{
+    background-image: url('../images/digital marketing landing page.svg');
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh
+}
+
+
 /* footer */
+
+.page-footer{
+    background-image: url('../images/foot.svg');
+    max-width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.footer-second-part{
+    background-color: #b5b6b8
+}
 
 #bottom-nav-link {
     font-size: .9em !important;
     text-decoration: none;
     display: inline-block;
-    color:white;
+    color:#219bd9;
+    font-weight: bold;
 }
 
 #bottom-nav-link::after {
@@ -71,7 +96,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #219bd9;
+    background: #f36b21;
     transition: width .3s;
 }
 
@@ -86,11 +111,11 @@
 	margin-top: .8rem;
     margin-bottom: 1rem;
     margin-left: 20px;
-    color: #10caca;
+    color: #f36b21;
 }
 
 #footer{
-	background-color: #242929;
+	background-color: #22adad;
 	color: #d5d5d5;
 	padding-top: 2rem;
 }
@@ -100,4 +125,11 @@
 	width: 100%;
 	/* margin-top: .9rem; */
 	margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    main-content{
+        height:240vh;
+        margin-top:0%;
+    }
 }
