@@ -1,10 +1,13 @@
+html{
+    scroll-behavior: smooth;
+}
 #navbar{
 	padding: .8rem;
 }
 
 #sticky{
-	position: fixed;
-    top: 0;
+	/* position: fixed; */
+    /* top: 0; */
     width: 100%;
 }
 
@@ -13,8 +16,7 @@
 }
 #nav-link{
     font-size: 1.1em !important;
-    color: #219bd9;
-    font-weight: bold;
+    color: black;
 }
 
 #navbarResponsive{
@@ -54,7 +56,7 @@
     max-width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    height: 13vh;
+    height: 9.5vh;
     width: 18vw;
 }
 /* home page css part */
@@ -66,85 +68,122 @@
     background-repeat: no-repeat;
     height: 100vh
 }
-/* our story */
-#welcome{
-	width: 75%;
-	margin: 0 auto;
-	padding-top: 2rem;
-}
-
-.heart{
-    background-image: url('../images/heart.svg');
-    /* max-width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat; */ 
-    /* background-color: black; */
-    width: 20px;
-    height: 20px;
-    float: left;
-}
 
 /* footer */
 
-/* footer */
-
-.page-footer{
-    background-image: url('../images/foot.svg');
-    max-width: 100%;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-.footer-second-part{
-    background-color: #b5b6b8
-}
-
-#bottom-nav-link {
-    font-size: .9em !important;
+footer {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #3A6073, #16222A);
+    background: linear-gradient(59deg, #3A6073, #16222A);
+    color: white;
+    margin-top:100px;
+  }
+  
+  footer a {
+    color: #fff;
+    font-size: 14px;
+    transition-duration: 0.2s;
+  }
+  
+  footer a:hover {
+    color: #FA944B;
     text-decoration: none;
+  }
+  
+  .copy {
+    font-size: 12px;
+    padding: 10px;
+    border-top: 1px solid #FFFFFF;
+  }
+  
+  .footer-middle {
+    padding-top: 2em;
+    color: white;
+  }
+  
+  
+  /*SOCİAL İCONS*/
+  
+  /* footer social icons */
+  
+  ul.social-network {
+    list-style: none;
+    display: inline;
+    margin-left: 0 !important;
+    padding: 0;
+  }
+  
+  ul.social-network li {
+    display: inline;
+    margin: 0 5px;
+  }
+  
+  
+  /* footer social icons */
+  
+  .social-network a.icoFacebook:hover {
+    background-color: #3B5998;
+  }
+  
+  .social-network a.icoLinkedin:hover {
+    background-color: #007bb7;
+  }
+  
+  .social-network a.icoFacebook:hover i,
+  .social-network a.icoLinkedin:hover i {
+    color: #fff;
+  }
+  
+  .social-network a.socialIcon:hover,
+  .socialHoverClass {
+    color: #44BCDD;
+  }
+  
+  .social-circle li a {
     display: inline-block;
-    color:#219bd9;
-    font-weight: bold;
-}
-
-#bottom-nav-link::after {
-    content: '';
-    display: block;
-    width: 0;
-    height: 2px;
-    background: #f36b21;
-    transition: width .3s;
-}
-
-#bottom-nav-link:hover::after{
-    width: 100%;
-    transition: width .3s;
-}
-
-#light{
-	border-top: 1px solid #d5d5d5;
-	width: 75%;
-	margin-top: .8rem;
-    margin-bottom: 1rem;
-    margin-left: 20px;
-    color: #f36b21;
-}
-
-#footer{
-	background-color: #22adad;
-	color: #d5d5d5;
-	padding-top: 2rem;
-}
-
-#light-100{
-	border-top: 1px solid #d5d5d5;
-	width: 100%;
-	/* margin-top: .9rem; */
-	margin-bottom: 1rem;
-}
-
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+  }
+  
+  .social-circle li i {
+    margin: 0;
+    line-height: 30px;
+    text-align: center;
+  }
+  
+  .social-circle li a:hover i,
+  .triggeredHover {
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms--transform: rotate(360deg);
+    transform: rotate(360deg);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    transition: all 0.2s;
+  }
+  
+  .social-circle i {
+    color: #595959;
+    -webkit-transition: all 0.8s;
+    -moz-transition: all 0.8s;
+    -o-transition: all 0.8s;
+    -ms-transition: all 0.8s;
+    transition: all 0.8s;
+  }
+  
+  .social-network a {
+    background-color: #F9F9F9;
+  }
+  
 @media only screen and (max-width: 600px) {
        
     
