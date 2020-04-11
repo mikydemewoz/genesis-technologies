@@ -1,6 +1,9 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Montserrat', sans-serif !important;
+}
 #navbar{
 	padding: .8rem;
 }
@@ -16,9 +19,22 @@ html{
 }
 #nav-link{
     font-size: 1.1em !important;
+    color: white;
+}
+#nav-link-scrolled{
+    font-size: 1.1em !important;
+    color: white;
+}
+.navbar-scrolled #nav-link {
     color: black;
 }
 
+.navbar-scrolled .nav-link{
+    color: black;
+}
+.navbar-not-scrolled{
+    background-color: transparent ;
+}
 #navbarResponsive{
     margin-right: 30px;
 }
@@ -65,9 +81,10 @@ html{
     background-image: url('../images/genesis landing page.svg');
     max-width: 100%;
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
-    height: 100vh
+    height: 120vh;
+    margin-top: -13vh;
 }
 
 .home_h2{

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
         crossorigin="anonymous">
@@ -14,14 +15,14 @@
 </head>
 
 <body data-spy="scroll" data-target="#navbarResponsive">
-    <div style="background: linear-gradient(59deg, #3A6073, #16222A);height: 8vh;">
+    <!-- <div style="background: linear-gradient(59deg, #3A6073, #16222A);height: 8vh;">
         <div style="float: left;padding-top: 2vh;padding-left: 2vw;color: white;"><h1 style="font-size: 19px;">some content</h1></div>
         <div style="float: right;padding-top: 2vh;">
             <h1 style="font-size: 16px;float:left;margin-right: 3vw;color: white;">contact@gmail.com</h1>
             <h1 style="font-size: 16px;float: right;margin-right: 5vw;color: white;">0932175428</h1>
         </div>
-    </div>
-    <nav class="container-fluid navbar navbar-expand-md navbar-light sticky-top" id="sticky" style="background-color: white;box-shadow: 0 8px 6px -6px#219bd9;">
+    </div> -->
+    <nav class="container-fluid navbar navbar-expand-md navbar-not-scrolled navbar-light sticky-top" id="sticky">
         <div class="logo">
             <!-- <a href="" class="navbar-brand"><img class="logo"src="images/logo.png" alt=""></a> -->
         </div>
@@ -54,7 +55,7 @@
             
     </div>
 
-    <div style="height: 80vh;margin-top: 2vh;background-color: coral;">
+    <div style="height: 80vh;margin-top: 2vh;background-color: rgb(252, 196, 176);">
         <h1 class="home_h1">We are <div id="typed-strings">
             <p>Genesis</p>
             <p>Perfect</p>
@@ -63,6 +64,7 @@
             <div class="line"></div>
         </div>
         <span id="typed"></span></h1>
+        <h3 style="text-align: center; text-transform: capitalize;">"Birthplace of great products and customer satisfication"</h3>
     </div>
         <!-- the service page part -->
     <div id="padding1" class="container-fluid padding">
@@ -76,7 +78,7 @@
             </div>
             <hr id="hr1" data-aos="fade-left">
             <div class="col-12">
-            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p >Genesis technologies as our motto describes strives to be the birthplace of great products and customer satisfaction. The team at Genesis helps you create amazing websites, apps, designs and digital marketing campains that meet your needs.</p>
             </div>
         </div>
     </div>
@@ -115,7 +117,8 @@
     </div>
 
     <div style="height: 80vh;margin-top: 0vh;background-color: crimson;">
-
+        <h1 style="text-align: center;">Who are we?</h1>
+        <p style="text-align: center;">Genesis is a team of ambitious and energetic people based in Addis Ababa, Ethiopia who strive to achieve and produce great products. We are always trying to push the limit higher by combining art and science.</p>
     </div>
 
     <!-- About Division -->
@@ -130,7 +133,7 @@
             </div>
             <hr id="hr1" data-aos="fade-left">
             <div class="col-12">
-            <p >Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <p >Genesis technologies is a web, application development and digital marketing company founded in 2019. We strive to provide high end products and services with the most affordable prices.</p>
             </div>
         </div>
         <div class="row">
@@ -140,7 +143,13 @@
         </div>
     </div>
     <div style="height: 80vh;margin-top: 0vh;margin-bottom: 0;background-color: darksalmon;">
-
+        <h2 style="text-align: center;">What makes us different?</h2>
+        <h3 style="text-align: left;">1. Affordable prices</h3>
+        <p style="text-align: left;">We provide all our services with the fairest market price. Our prices are always affordable and reasonable</p><br><br>
+        <h3 style="text-align: right;">2. Tailored services and experience</h3>
+        <p style="text-align: right;">We work with our customers and clients as closely as possible to deliver the most satisfying services and products.</p><br><br>
+        <h3 style="text-align: left;">3. Always on budget and time</h3>
+        <p style="text-align: left;">We always meet the agreed upon budget and deadlines. We know how important our customers time and resources are. That is why we always strive to finish our projects before the deadline and with less than the budget.</p>
     </div>
 <!-- footer -->
 <footer class="mainfooter" role="contentinfo">
@@ -203,7 +212,7 @@
         </div>
         <div class="row">
             <div class="col-md-12 copy">
-                <p class="text-center">&copy; Copyright 2018 - Genesis Technologie.  All rights reserved.</p>
+                <p class="text-center">&copy; Copyright 2018 - Genesis Technologies.  All rights reserved.</p>
             </div>
         </div>
     
@@ -227,19 +236,21 @@
     <script>
         AOS.init();
     </script>
-    <!-- <script type="text/javascript">
+    <script type="text/javascript">
         $(window).scroll(function(){
         var scroll = $(window).scrollTop();
 
-        if(scroll>=100){
+        if(scroll>=200){
             $('.navbar').addClass('bg-light');
             $('.navbar').removeClass('bg-transparent');
+            $('.nav-link').css("color", "black");
         }else{
             $('.navbar').addClass('bg-transparent');
             $('.navbar').removeClass('bg-light');
+            $('.nav-link').css("color", "white");
         }
         });
-    </script> -->
+    </script>
     <script type="text/javascript">
         var typed = new Typed('#typed', {
             stringsElement: '#typed-strings',
